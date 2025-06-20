@@ -9,8 +9,6 @@ def selection_sort(arr):
                 min_idx = j
         # Swap the found minimum with the first element
         arr[i], arr[min_idx] = arr[min_idx], arr[i]
+    return arr
 
-# Example usage
-arr = [7, 2, 9, 1, 6, 4, 10, 3, 8, 5]
-selection_sort(arr)
-print("Sorted array is:", arr)
+print(selection_sort([10,3,5,6,7,9]))
